@@ -1,0 +1,5 @@
+//Actors
+CreateDynamicActor(70, -1495.0441, 1969.5328, 48.4218, 106.5183);
+
+//3D text labels
+Create3DTextLabel("Actor: 1", 0xFFFFFFFF, -1495.0441, 1969.5328, 49.4218, 100.0000, -1, 0);

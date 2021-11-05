@@ -1,10 +1,77 @@
 {
 	"user": "brpsamp",
 	"repo": "brpsa-ultimate",
-	"entry": "gamemodes/ultimate.pwn",
+	"entry": "brpsamp/ultimate.pwn",
 	"output": "gamemodes/ultimate.amx",
 	"dependencies": [
-		"sampctl/samp-stdlib"
+		"pawn-lang/samp-stdlib",
+		"pawn-lang/YSI-Includes@5.x",
+		"IllidanS4/YSF:v2.2",
+		"samp-incognito/samp-streamer-plugin:v2.9.5",
+		"katursis/Pawn.CMD:3.3.6",
+		"Open-GTO/foreach",
+		"maddinat0r/sscanf:v2.8.3"
 	],
-	"local": true
+	"local": true,
+	"runtime": {
+		"version": "0.3.7",
+		"mode": "brpsamp",
+		"rcon_password": "1",
+		"port": 7777,
+		"hostname": "Ultimate Creator",
+		"maxplayers": 50,
+		"language": "multilang",
+		"mapname": "bleforld",
+		"weburl": "github.com/brpsamp",
+		"gamemodetext": "brpsamp",
+		"bind": "127.0.0.1",
+		"announce": true,
+		"lanmode": false,
+		"query": true,
+		"rcon": false,
+		"logqueries": false,
+		"sleep": 5,
+		"maxnpc": 0,
+		"stream_rate": 500,
+		"stream_distance": 300,
+		"onfoot_rate": 80,
+		"incar_rate": 80,
+		"weapon_rate": 40,
+		"chatlogging": true,
+		"timestamp": true,
+		"logtimeformat": "[%H:%M:%S]",
+		"messageholelimit": 100000,
+		"messageslimit": 500,
+		"ackslimit": 10000,
+		"playertimeout": 10000,
+		"minconnectiontime": 0,
+		"lagcompmode": 1,
+		"connseedtime": 300000,
+		"db_logging": true,
+		"db_log_queries": true,
+		"conncookies": true,
+		"cookielogging": false,
+		"output": true,
+		"extra": {
+			"long_call_time": "0",
+			"profile_format": "html",
+			"profile_gamemode": "1"
+		}
+	},
+	"build": {
+		"name": "main",
+		"args": [
+			"-;+",
+			"-(+",
+			"-\\+",
+			"-d3",
+			"-Z+"
+		],
+		"includes": [
+			"brpsamp"
+		],
+		"compiler": {
+			"version": "3.10.8"
+		}
+	}
 }

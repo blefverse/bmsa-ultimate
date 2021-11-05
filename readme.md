@@ -2,6 +2,8 @@
 
 [![sampctl](https://img.shields.io/badge/sampctl-brpsa--ultimate-2f2f2f.svg?style=for-the-badge)](https://github.com/brpsamp/brpsa-ultimate)
 
+An independent fork of Ultimate Creator by [NexiusTailer](https://github.com/NexiusTailer/Ultimate-Creator). The fork and significant changes were made by [brpsamp](https://github.com/brpsamp/brpsa-ultimate).
+
 <!--
 Short description of your library, why it's useful, some examples, pictures or
 videos. Link to your forum release thread too.
