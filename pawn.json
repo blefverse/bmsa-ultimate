@@ -1,0 +1,10 @@
+{
+	"user": "brpsamp",
+	"repo": "brpsa-ultimate",
+	"entry": "gamemodes/ultimate.pwn",
+	"output": "gamemodes/ultimate.amx",
+	"dependencies": [
+		"sampctl/samp-stdlib"
+	],
+	"local": true
+}
